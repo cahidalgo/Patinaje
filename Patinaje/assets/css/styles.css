@@ -354,3 +354,70 @@ body {
 .contact-button i {
     margin-right: 5px;
 }
+
+
+/* Contenedor principal */
+.busqueda-container {
+  text-align: center;
+  padding: 30px;
+  background: #f9f9f9;
+}
+
+/* Barra de búsqueda */
+.busqueda-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.busqueda-box input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  font-size: 16px;
+}
+
+.search-button {
+  background: #ff7675;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  font-size: 18px;
+  transition: background 0.3s;
+}
+
+.search-button:hover {
+  background: #d63031;
+}
+
+/* Resultados */
+.resultados {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Tarjetas de perfil */
+.perfil-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  text-align: center;
+}
+
+.perfil-card h3 {
+  color: #333;
+}
+
+.perfil-card p {
+  margin: 5px 0;
+  color: #555;
+}
