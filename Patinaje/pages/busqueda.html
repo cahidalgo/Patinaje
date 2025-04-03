@@ -26,15 +26,33 @@
     </nav>
       </nav>
     <h2>Búsqueda de Perfil</h2>
-    <table>
-        <tr>
-            <td><input type="text" placeholder="Nombre"></td>
-            <td>Categoría - Edad - Especialidad</td>
-        </tr>
-        <tr><td colspan="2">- NOMBRE NOMBRE APELLIDO APELLIDO 🔵</td></tr>
-        <tr><td colspan="2">- NOMBRE NOMBRE APELLIDO APELLIDO 🔵</td></tr>
-        <tr><td colspan="2">- NOMBRE NOMBRE APELLIDO APELLIDO 🔵</td></tr>
-    </table>
+    <section class="busqueda-container">
+        <h2>Buscar Patinador</h2>
+        <div class="busqueda-box">
+            <input type="text" id="search" placeholder="Nombre del patinador">
+            <button class="search-button"><i class="fas fa-search"></i></button>
+        </div>
+    
+        <div class="resultados">
+            <div class="perfil-card">
+                <h3>Juan Pérez</h3>
+                <p><strong>Categoría:</strong> Juvenil</p>
+                <p><strong>Especialidad:</strong> Velocidad</p>
+            </div>
+    
+            <div class="perfil-card">
+                <h3>María López</h3>
+                <p><strong>Categoría:</strong> Senior</p>
+                <p><strong>Especialidad:</strong> Patinaje Artístico</p>
+            </div>
+    
+            <div class="perfil-card">
+                <h3>Carlos Ramírez</h3>
+                <p><strong>Categoría:</strong> Entrenador</p>
+                <p><strong>Especialidad:</strong> Técnica y Resistencia</p>
+            </div>
+        </div>
+    </section>
 
     <footer>
         <p>Contacto: Correo@correo.com | Dirección: Calle 12#12a-12 | Teléfono: +57 85574765124</p>
