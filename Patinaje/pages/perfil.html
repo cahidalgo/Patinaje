@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Patinador</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+        <h1>Escuela de Patinaje <br> "Los Toros"</h1>
+        <div class="header-buttons">
+            <a href="../index.html"class="home-button">Inicio</a>
+            <a href="login.html" class="login-button">Iniciar Sesión</a>
+        </div>
+    </header>
+    <nav id="menu">
+        <ul>
+          <li><a href="busqueda.html"><i class="fas fa-search"></i> Búsqueda de Perfil</a></li>
+          <li><a href="cronometro.html"><i class="fas fa-stopwatch"></i> Cronómetro de Entrenamiento</a></li>
+          <li><a href="perfil.html"><i class="fas fa-user"></i> Perfil del Patinador</a></li>
+        </ul>
+    </nav>
+    <section class="perfil-container">
+        <div class="perfil-box">
+            <img src="../assets/img/persona1.jpg" alt="Foto del atleta" class="perfil-foto">
+            <div class="perfil-info">
+                <h2>Juan Pérez</h2>
+                <p><strong>Edad:</strong> 22 años</p>
+                <p><strong>Especialidad:</strong> Velocidad</p>
+                <p><strong>Logros:</strong> Campeón regional de 500m en 2023</p>
+                <p><strong>Descripción:</strong> Juan es un patinador apasionado con años de experiencia en competencias de alto nivel. Su velocidad y resistencia lo han llevado a destacarse en múltiples torneos.</p>
+                <button class="contact-button"><i class="fas fa-envelope"></i> Contactar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Contacto: Correo@correo.com | Dirección: Calle 12#12a-12 | Teléfono: +57 85574765124</p>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

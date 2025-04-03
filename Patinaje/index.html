@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Escuela de Patinaje - Los Toros</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+</head>
+<body>
+  <header>
+    <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    <h1>Escuela de Patinaje <br> "Los Toros"</h1>
+    <div class="header-buttons">
+      <a href="pages/login.html" class="login-button">Iniciar Sesión</a>
+    </div>
+  </header>
+  
+  <!-- Menú desplegable -->
+  <nav id="menu">
+    <ul>
+      <li><a href="pages/busqueda.html"><i class="fas fa-search"></i> Búsqueda de Perfil</a></li>
+      <li><a href="pages/cronometro.html"><i class="fas fa-stopwatch"></i> Cronómetro de Entrenamiento</a></li>
+      <li><a href="pages/perfil.html"><i class="fas fa-user"></i> Perfil del Patinador</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sección Hero con imagen de fondo y título -->
+  <section class="hero">
+    <h2>Bienvenidos a Nuestra Escuela</h2>
+    <p>Descubre el talento y la pasión de nuestros patinadores</p>
+  </section>
+
+  <!-- Sección Catálogo sin fondo -->
+  <section class="catalogo">
+    <div class="persona">
+      <img src="assets/img/persona1.jpg" alt="Persona 1">
+      <h3>Juan Pérez</h3>
+      <p>Campeón regional de velocidad.</p>
+    </div>
+    <div class="persona">
+      <img src="assets/img/persona2.jpg" alt="Persona 2">
+      <h3>María López</h3>
+      <p>Especialista en patinaje artístico.</p>
+    </div>
+    <div class="persona">
+      <img src="assets/img/persona3.jpg" alt="Persona 3">
+      <h3>Carlos Ramírez</h3>
+      <p>Entrenador con 10 años de experiencia.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Contacto: Correo@correo.com | Dirección: Calle 12#12a-12 | Teléfono: +57 85574765124</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      console.log("Menu toggle activado");
+      document.getElementById('menu').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
